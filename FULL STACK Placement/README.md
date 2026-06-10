@@ -8,6 +8,9 @@ This project contains the Day 1 HTML and CSS exercise for full-stack placement t
 - `Day1/Styles.css` — the stylesheet used to style the `Basic.html` page, including typography, layout, buttons, tables, and forms.
 - `Day1/` also contains image assets used by the example page.
 
+## Preview My Work
+     https://hemalathabe2526-hub.github.io/411624243009/FULL%20STACK%20Placement/Day1/Basic.html
+
 ## Features
 
 - Basic typography styling for paragraphs and headings

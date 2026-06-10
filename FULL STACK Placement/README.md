@@ -9,7 +9,7 @@ This project contains the Day 1 HTML and CSS exercise for full-stack placement t
 - `Day1/` also contains image assets used by the example page.
 
 ## Preview My Work
-     https://hemalathabe2526-hub.github.io/411624243009/FULL%20STACK%20Placement/Day1/Basic.html
+     https://hemalathabe2526-hub.github.io/411624243009/FULL STACK Placement/Day1/Basic.html
 
 ## Features
 

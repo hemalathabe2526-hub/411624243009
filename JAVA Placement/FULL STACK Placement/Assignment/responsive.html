@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Placement Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Responsive Website Demo</h1>
+
+    <section class="media-section">
+      <img
+        src="phoenix-bird.jpg"
+        alt="Rounded edges sample"
+        class="rounded-image"
+      />
+
+      <video controls class="styled-media">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="table-section">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>1</th>
+            <td>Laptop</td>
+            <td>Active</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Mouse</td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>Keyboard</td>
+            <td>Active</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="actions">
+      <button class="primary-button" id="primaryAction">Show Greeting</button>
+    </section>
+
+    <section class="interactive-panel">
+      <button class="secondary-button" id="greetBtn">Display Greeting</button>
+      <button class="secondary-button" id="themeBtn">Toggle Theme</button>
+      <button class="secondary-button" id="shuffleBtn">Shuffle Grid</button>
+      <button class="secondary-button" id="toggleImage">Toggle Image Style</button>
+      <button class="secondary-button" id="playPauseVideo">Play / Pause Video</button>
+    </section>
+
+    <div class="message-box" id="status-box" aria-live="polite">Welcome! Tap a button to begin.</div>
+
+    <section class="grid-section" id="gridSection">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

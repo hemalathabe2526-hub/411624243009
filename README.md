@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # 411624243009
-=======
+
 # Full Stack Placement — Day 1 Project
 
 This project contains the Day 1 HTML and CSS exercise for full-stack placement training.
@@ -32,4 +31,3 @@ This project contains the Day 1 HTML and CSS exercise for full-stack placement t
 1. Open `Day1/Basic.html` in a browser.
 2. Ensure `Day1/Styles.css` is linked in the HTML file.
 3. Review the HTML and CSS to understand how selectors, layout, and styling work together.
->>>>>>> 5033d2b (Initial commit)

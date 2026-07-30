@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Fetcher - API Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📱 User Data Fetcher</h1>
+            <p class="subtitle">Fetch and display user information with a 2-second delay</p>
+        </header>
+
+        <section class="controls-section">
+            <button id="fetchBtn" class="fetch-button">
+                <span class="button-icon">⬇️</span>
+                Fetch Users Data
+            </button>
+            <button id="clearBtn" class="clear-button">
+                <span class="button-icon">🗑️</span>
+                Clear Data
+            </button>
+        </section>
+
+        <section class="status-section">
+            <div id="statusMessage" class="status-message">Ready to fetch data...</div>
+            <div id="loadingSpinner" class="loading-spinner hidden">
+                <div class="spinner"></div>
+                <p>Loading...</p>
+            </div>
+        </section>
+
+        <section class="users-section">
+            <div id="usersContainer" class="users-container">
+                <!-- Users will be displayed here -->
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <h3>📊 Statistics</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-label">Total Users:</span>
+                    <span id="totalUsers" class="stat-value">0</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">API Calls:</span>
+                    <span id="apiCalls" class="stat-value">0</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Fetch Time:</span>
+                    <span id="fetchTime" class="stat-value">0ms</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="postman-section">
+            <h3>🧪 Testing with Postman</h3>
+            <div class="postman-info">
+                <p><strong>Base URL:</strong> <code>https://jsonplaceholder.typicode.com</code></p>
+                <div class="endpoints-list">
+                    <div class="endpoint">
+                        <h4>GET - Fetch All Users</h4>
+                        <code>GET /users</code>
+                    </div>
+                    <div class="endpoint">
+                        <h4>GET - Fetch Single User</h4>
+                        <code>GET /users/1</code>
+                    </div>
+                    <div class="endpoint">
+                        <h4>POST - Create User</h4>
+                        <code>POST /users</code>
+                        <p class="endpoint-body">Body: <code>{"name": "John", "email": "john@example.com", "phone": "123-456"}</code></p>
+                    </div>
+                    <div class="endpoint">
+                        <h4>PUT - Update User</h4>
+                        <code>PUT /users/1</code>
+                        <p class="endpoint-body">Body: <code>{"name": "Updated Name", "email": "new@example.com", "phone": "999-999"}</code></p>
+                    </div>
+                    <div class="endpoint">
+                        <h4>PATCH - Partial Update User</h4>
+                        <code>PATCH /users/1</code>
+                        <p class="endpoint-body">Body: <code>{"name": "Partially Updated"}</code></p>
+                    </div>
+                    <div class="endpoint">
+                        <h4>DELETE - Delete User</h4>
+                        <code>DELETE /users/1</code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>💡 <strong>Features :</strong> Loading animation, Response time tracking, User statistics, Responsive design, Error handling</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

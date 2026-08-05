@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Message Board</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="card">
+        <h1>Dynamic Message Board</h1>
+        <p class="subtitle">
+          Type a message, add it to the board, and watch it vanish after 10 seconds.
+        </p>
+        <div class="controls">
+          <input
+            id="messageInput"
+            type="text"
+            maxlength="80"
+            placeholder="Type something wonderful..."
+            autocomplete="off"
+          />
+          <button id="addButton">Add Message</button>
+          <button id="clearButton" class="secondary">Clear All Messages</button>
+        </div>
+
+        <div class="meta-bar">
+          <p id="charCount" class="meta-pill">Character count: 0</p>
+          <p id="activeCount" class="meta-pill">Active messages: 0</p>
+        </div>
+        <section class="messages-panel">
+          <h2>Live Messages</h2>
+          <div id="messagesList" class="messages-list"></div>
+        </section>
+        <p id="statusMessage" class="status" role="status" aria-live="polite">
+          Ready to add your first message.
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

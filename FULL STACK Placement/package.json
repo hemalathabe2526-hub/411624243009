@@ -1,0 +1,21 @@
+{
+  "name": "full-stack-placement",
+  "version": "1.0.0",
+  "description": "This project contains the Day 1 HTML and CSS exercise for full-stack placement training.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemalathabe2526-hub/411624243009.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hemalathabe2526-hub/411624243009/issues"
+  },
+  "homepage": "https://github.com/hemalathabe2526-hub/411624243009#readme"
+}
